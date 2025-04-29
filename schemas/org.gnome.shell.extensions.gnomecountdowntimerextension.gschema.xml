@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.gnomecountdowntimerextension" path="/org/gnome/shell/extensions/gnomecountdowntimerextension/">
+    <key name="hide" type="b">
+      <default>false</default>
+    </key>
+    <key name="icon" type="s">
+      <default>'🏖️'</default>
+      <description>The symbol that will be shown when the countdown is hidden</description>
+    </key>
+    <key name="target-date" type="s">
+      <default>'2025-12-01'</default>
+      <description>The date to count down to in YYYY-MM-DD format</description>
+    </key>
+  </schema>
+</schemalist>
